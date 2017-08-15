@@ -1,3 +1,21 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.breadcrumb {
+  .section {
+    font-size: 14px;
+    color: @wr-secondary-color;
+    font-weight: 600;
+
+    &.active {
+      color: @wr-gray-light;
+      font-weight: 400;
+    }
+  }
+
+  .divider {
+    font-size: 14px;
+    color: @wr-gray-light;
+  }
+}
