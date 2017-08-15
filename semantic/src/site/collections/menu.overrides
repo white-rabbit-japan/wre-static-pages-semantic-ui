@@ -1,3 +1,30 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.menu.huge {
+  height: 70px;
+
+  .item {
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 0px solid !important;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .logo {
+    font-size: 14px;
+    letter-spacing: 1.8px;
+    img {
+      width: 69px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.ui.fixed.menu + .ui.grid {
+  padding-top: 30px;
+}

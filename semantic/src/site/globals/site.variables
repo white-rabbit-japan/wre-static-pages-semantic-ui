@@ -9,3 +9,33 @@
 
 @wr-gray-light                             : #596383;
 @wr-gray-dark                              : #1c202d;
+
+
+@green                                     : @wr-primary-color;
+
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Open Sans';
+@fontSmoothing     : antialiased;
+
+@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+@googleFontSizes   : '300,400,600,700,400italic,700italic';
+
+
+@absoluteBorderRadius: @2px;
+
+
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : @green;
+@linkUnderline       : none;
+@linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
+@linkHoverUnderline  : @linkUnderline;

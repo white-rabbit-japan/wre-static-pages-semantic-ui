@@ -2,6 +2,12 @@
          Site Overrides
 *******************************/
 
+
+.ui.button {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
 /*--- White ---*/
 
 .ui.white.buttons .button,
@@ -17,7 +23,6 @@
 .ui.white.buttons .button:hover,
 .ui.white.button:hover {
   background-color: #fbfcfc;
-  color: #ffffff;
   text-shadow: none;
 }
 .ui.white.buttons .button:focus,
