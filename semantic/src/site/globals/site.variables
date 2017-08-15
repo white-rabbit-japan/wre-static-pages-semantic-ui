@@ -1,3 +1,11 @@
 /*******************************
      User Global Variables
 *******************************/
+
+@white                                     : #ffffff;
+
+@wr-primary-color                          : #00c967;
+@wr-secondary-color                        : #282d3c;
+
+@wr-gray-light                             : #596383;
+@wr-gray-dark                              : #1c202d;
