@@ -1,5 +1,14 @@
 # wre-static-pages-semantic-ui
 
+# About 
+
+site styles are located here
+
+`/semantic/src/site/globals/site.overrides`
+
+Perhaps we could organization components into individual files i.e. footer.variables and footer.overrides, but I put them all in one for now.
+
+
 ## Semantic was setup using the following procedure
 
 1. Install Gulp using NPM (if NPM isn’t already on your system, we recommended adding it via the Nodejs installer)
