@@ -19,6 +19,44 @@ body {
   padding-top: 70px;
 }
 
+#navbar {
+  z-index: 999;
+}
+
+#sidebar {
+  padding: 70px 15px 0;
+  width: 100%;
+
+  .item {
+    line-height: 40px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: @wr-gray-light;
+    font-weight: 400;
+
+    &:hover {
+      background: #fff;
+      color: @wr-primary-color;
+    }
+
+    &.active {
+      color: #c2c5cd;
+      background: #fff;
+    }
+    &::before {
+      background: #f1f2f4;
+    }
+  }
+
+  .copyright {
+    color: #c2c5cd;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    margin-top: 60px;
+    font-weight: 400;
+  }
+}
+
 
 /*******************************
     text
