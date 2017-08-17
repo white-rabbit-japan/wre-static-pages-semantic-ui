@@ -16,11 +16,20 @@
 *******************************/
 
 body {
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 #navbar {
   z-index: 999;
+
+  #sidebar-toggle {
+    .icon {
+      font-size: 24px;
+      font-weight: 400;
+      margin-right: 0px;
+      opacity: 1;
+    }
+  }
 }
 
 #sidebar {
@@ -314,6 +323,20 @@ a:hover {
   }
 }
 
+
+@media (max-width: @tabletBreakpoint) {
+  .how-we-work {
+    .work-process {
+      &::after {
+        border: 0px;
+      }
+
+      .step {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
 
 /*******************************
     add item

@@ -3,10 +3,13 @@
 *******************************/
 
 .ui.breadcrumb {
+  padding: 20px 0;
+
   .section {
     font-size: 14px;
     color: @wr-secondary-color;
     font-weight: 600;
+    line-height: 20px;
 
     &.active {
       color: @wr-gray-light;
