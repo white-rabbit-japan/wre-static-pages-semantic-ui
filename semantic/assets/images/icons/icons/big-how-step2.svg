@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="78px" viewBox="0 0 108 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/big-how-step2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M65.3210884,60.0685157 L69.9042704,61.2324984 C71.5068133,61.6394935 72.3969143,60.6951508 71.8801132,59.1201382 L65.6301534,40.0726415 C64.7727288,37.4595379 63.3743317,37.4499612 62.5137647,40.0726415 L56.2638048,59.1201382 C55.7497905,60.686658 56.6316188,61.6408867 58.2396476,61.2324984 L62.8228297,60.0685157 L62.8228297,70.7086639 C62.8228297,71.4100221 63.382084,71.9649854 64.071959,71.9649854 C64.7666438,71.9649854 65.3210884,71.4025111 65.3210884,70.7086639 L65.3210884,60.0685157 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="_components/how_it_works" transform="translate(-333.000000, -152.000000)">
+            <g id="step-2">
+                <g transform="translate(291.000000, 140.000000)">
+                    <g id="icons/big-how-step2" transform="translate(41.000000, 0.000000)">
+                        <g transform="translate(50.653685, 42.338919) rotate(-10.000000) translate(-50.653685, -42.338919) translate(2.153685, 4.838919)">
+                            <path d="M16.7228916,23.9933521 C16.7228916,20.1341124 19.8628806,17 23.7177486,17 L81.2822514,17 C85.1433253,17 88.2771084,20.1358137 88.2771084,23.9933521 L88.2771084,63.2641509 L16.7228916,63.2641509 L16.7228916,23.9933521 Z M18.1000303,59.2641509 L86.8999697,59.2641509 L103.421976,70.6603774 L1.57802393,70.6603774 L18.1000303,59.2641509 Z M6,66.6603774 L99,66.6603774 L99,71.8301887 C99,74.6856284 96.688392,77 93.8324429,77 L11.1675571,77 C8.31415613,77 6,74.6823994 6,71.8301887 L6,66.6603774 Z" id="Combined-Shape" stroke="#3A4461" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M15.0858882,68.5 L89.5336681,68.5" id="Line" stroke="#3A4461" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M17.2451369,60.8311552 L88.0856395,60.9328547" id="Line" stroke="#3A4461" stroke-linecap="square" stroke-linejoin="round"></path>
+                            <rect id="Rectangle" fill="#00C967" x="45.2756645" y="33.9283682" width="15.1702483" height="15.1702483" rx="7.58512417"></rect>
+                            <rect id="Rectangle" stroke="#00C967" opacity="0.200000003" stroke-linecap="round" stroke-linejoin="round" x="37.1888404" y="25.8415441" width="31.0055699" height="31.0055699" rx="15.502785"></rect>
+                            <g id="Combined-Shape" stroke-linecap="round" stroke-linejoin="round" transform="translate(64.072237, 55.037103) rotate(-40.000000) translate(-64.072237, -55.037103) ">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#3A4461" stroke-width="2" d="M66.3210884,61.35423 L66.3210884,70.7086639 C66.3210884,71.9545984 65.3191575,72.9649854 64.071959,72.9649854 C62.8268501,72.9649854 61.8228297,71.9593542 61.8228297,70.7086639 L61.8228297,61.35423 L58.4858015,62.2017292 C56.1157787,62.8036398 54.5529809,61.1265893 55.3136474,58.8083678 L61.5636072,39.7608711 C62.7246433,36.2224754 65.4211516,36.2281953 66.5803108,39.7608711 L72.8302707,58.8083678 C73.5926929,61.1319403 72.0258613,62.8030612 69.6581166,62.2017292 L66.3210884,61.35423 Z"></path>
+                            </g>
+                            <g id="!!!" transform="translate(11.518485, 10.873333) rotate(-40.000000) translate(-11.518485, -10.873333) translate(1.018485, 5.873333)" stroke="#00C967" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M10.5,9 L10.5,0" id="Line"></path>
+                                <path d="M16,10 L20.7660444,3.64278761" id="Line"></path>
+                                <path d="M5,10 L0.35721239,3.76604444" id="Line"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -13,6 +13,10 @@
     &::before {
       display: none;
     }
+
+    .button {
+      padding: 15px;
+    }
   }
 
   .logo {

@@ -124,9 +124,8 @@ a:hover {
     }
 
     .basic-product-info {
-      padding: 25px 0 80px;
+      padding: 25px 0 50px;
       border-top: 1px solid #ededef;
-
 
       h1,
       h2 {
@@ -134,7 +133,7 @@ a:hover {
       }
 
       h2 {
-        margin-bottom: 40px;
+        margin-bottom: 35px;
       }
 
       .product-description {
@@ -156,7 +155,7 @@ a:hover {
 *******************************/
 
 .learn-more {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   .grid {
     border-top: dashed 1px #c2c5cd;
   }
@@ -193,7 +192,7 @@ a:hover {
   }
   .product-what-and-where-content {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 52px;
     .lead-icon {
       text-align: center;
       img {
@@ -205,7 +204,8 @@ a:hover {
     h3 {
       font-size: 23px;
       letter-spacing: normal;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
+      margin-top: 30px;
     }
 
     .additional-text {
@@ -270,7 +270,7 @@ a:hover {
     color: @wr-secondary-color;
     text-align: center;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 35px;
   }
 
   .work-process {
@@ -386,9 +386,12 @@ a:hover {
   .footer-main {
     padding: 60px 20px 40px;
     background: @wr-secondary-color;
-    color: @white;
     text-align: center;
     text-transform: uppercase;
+
+    &, h1, h2, h3, h4, h5, h6 {
+      color: @white;
+    }
 
     ul {
       margin: 0;
