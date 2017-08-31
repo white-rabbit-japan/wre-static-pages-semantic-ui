@@ -18,5 +18,8 @@
   "homepage": "https://github.com/white-rabbit-japan/wre-static-pages-semantic-ui#readme",
   "devDependencies": {
     "semantic-ui": "^2.2.13"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }

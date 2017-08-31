@@ -1,5 +1,8 @@
 # wre-static-pages-semantic-ui
 
+# temp deploy
+http://performer-wolf-62746.netlify.com/
+
 # About 
 
 site styles are located here
