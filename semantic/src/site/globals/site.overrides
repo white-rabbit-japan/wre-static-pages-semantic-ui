@@ -497,3 +497,99 @@ a:hover {
     }
   }
 }
+
+
+.home {
+  .get-started {
+    background: #fcfbfd;
+    border-bottom: 1px solid #f1f2f4;
+
+    .get-started-left {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+
+      .middle {
+        flex-grow: 0;
+        flex-shrink: 0;
+
+        h1 {
+          margin-bottom: 25px;
+        }
+  
+        h3 {
+          margin: 0px 0 60px;
+          font-size: 22px;
+          color: @wr-gray-light;
+          font-weight: 400;
+        }
+  
+        .button {
+          margin-bottom: 18px;
+        }
+  
+        .no-commitment {
+          font-size: 13px;
+          line-height: 1.85;
+          color: @wr-gray-light;
+        }
+      }
+    }
+
+    // background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    // background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+  }
+
+  .money-back {
+    border-bottom: 1px solid #f1f2f4;
+    .money-back-left {
+      .percentage-icon {
+        display: inline-block;
+        margin-right: 4px;
+      }
+      .text {
+        display: inline-block;
+        text-transform: uppercase;
+
+        .main-text {
+          font-size: 12px;
+          font-weight: 600;
+          color: @wr-gray-light;
+        }
+
+        .secondary-text {
+          color: @wr-gray-light;
+          font-size: 10px;
+        }
+      }
+    }
+
+    .money-back-right {
+      .cards-list {
+        margin: 4px 0 0 0px;
+
+        li {
+          display: inline-block;
+          padding: 4px 6px 4px 0;
+
+          img {
+            display: block;
+          }
+
+          &:last-child {
+            border-left: dashed 1px #a0aedb;
+            padding-left: 8px;
+            margin-left: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .intro {
+
+  }
+}

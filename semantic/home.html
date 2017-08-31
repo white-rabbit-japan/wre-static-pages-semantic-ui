@@ -1,0 +1,339 @@
+<!-- partial:partials/_head.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="dist/semantic.css">
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="dist/semantic.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      const sidebarToggle = $('#sidebar-toggle');
+      const sidebar = $('#sidebar');
+      sidebar.sidebar('setting', 'transition', 'overlay');
+      sidebarToggle.on('click', function() {
+        sidebar.sidebar('toggle')
+      })
+    });
+  </script>
+</head>
+
+<body>
+
+  <div id="navbar" class="ui huge menu fixed green inverted">
+    <div class="ui grid vertically padded container">
+      <a class="item logo">
+        <img src="assets/images/white-rabbit-logo.svg" alt="">
+        <span class="hide-on-mobile">White Rabbit Express</span>
+      </a>
+
+      <div class="right menu show-on-mobile">
+        <a id="sidebar-toggle" class="item">
+          <i class="sidebar icon"></i>
+        </a>
+      </div>
+
+      <div class="right menu hide-on-mobile">
+        <a class="item">
+          Help
+        </a>
+        <a class="item">
+          Sign In
+        </a>
+        <div class="item">
+          <div class="ui white button">Get Started</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sidebar" class="ui right sidebar vertical menu">
+    <a href="#" class="active item">Home</a>
+    <a href="#" class="item">Help</a>
+    <a href="#" class="item">Sign In</a>
+    <a href="#" class="item">Get Started</a>
+    <a href="#" class="item">Partner Program</a>
+    <a href="#" class="item">Service Fees</a>
+    <a href="#" class="item">Prohibited Items</a>
+    <a href="#" class="item">Terms Of Service</a>
+    <a href="#" class="item">Privacy Policy</a>
+    <a href="#" class="item">Careers</a>
+    
+    <div class="copyright">
+      © 2017 White Rabbit Ventures Inc. 
+    </div>
+  </div>
+
+  <div class="pusher">
+
+    <div class="home">
+      <div class="get-started">
+        <div class="ui two column centered grid vertically padded container">
+          <div class="six wide tablet eight wide computer column">
+            <div class="get-started-left">
+              <div class="middle">
+                <h1>Buy from Japan, easier than ever.</h1>
+                <h3>A proxy-buying service that puts customer service first.</h3>
+  
+                <a href="#" class="ui green button huge">Get Started</a>
+  
+                <div class="no-commitment">No commitment. No hidden costs.</div>
+              </div>
+            </div>
+          </div>
+          <div class="ten wide tablet eight wide computer right aligned column">
+            <img class="ui fluid image" src="assets/images/home/grid-01-men.png" srcset="assets/images/home/grid-01-men@2x.png 2x" srcset="assets/images/home/grid-01-men@3x.png 3x" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="money-back">
+        <div class="ui two column centered grid vertically padded container">
+          
+          <div class="eight wide tablet eight wide computer column">
+            <div class="money-back-left">
+              <div class="percentage-icon">
+                <img src="assets/images/home/trust-guarantee.svg" alt="">
+              </div>
+              <div class="text">
+                <div class="main-text">100% money back guarantee</div>
+                <div class="secondary-text">We buy it or your money back</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="eight wide tablet eight wide computer right aligned column">
+            <div class="money-back-right">
+              <ul class="cards-list">
+                <li><img src="assets/images/home/cards/trust-payment-mastercard.svg" alt=""></li>
+                <li><img src="assets/images/home/cards/trust-payment-visa.svg" alt=""></li>
+                <li><img src="assets/images/home/cards/trust-payment-discover.svg" alt=""></li>
+                <li><img src="assets/images/home/cards/trust-payment-amex.svg" alt=""></li>
+                <li><img src="assets/images/home/cards/trust-payment-paypal.svg" alt=""></li>
+                <li><img src="assets/images/home/cards/trust-ssl-secure.svg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="intro">
+        <div class="ui one column centered grid vertically padded container">
+          <div class="sixteen wide tablet sixteen wide computer column">
+            <div class="intro-content">
+              <img src="assets/images/home/kitten-icon.svg" alt="">
+              <h2>We’ve neeb expecting you</h2>
+
+              <p>You want to buy something from Japan, but you’ve run into trouble.<br/>You’re dealing with:</p>
+
+              <ul>
+                <li>Japanese websites which are hard to navigate.</li>
+                <li>Sellers who won’t ship overseas.</li>
+                <li>Payment methods not available outside Japan.</li>
+                <li>Companies which can’t answer pre-sales questions in English.</li>
+                <li>Time-sensitive sales and pre-orders which you need help with ASAP. </li>
+              </ul>
+
+              <p>
+                  You need someone who can handle all this for you. Someone who can answer your questions. 
+                  Someone who can purchase and pick-up your items. 
+                  Someone who can ship your packages from Japan using the method of your choice. 
+                  It’s time for White Rabbit Express.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="how-we-work">
+        <div class="ui centered grid vertically padded container">
+          <div class="one column row">
+            <div class="column">
+              <h4>It can be a pain to buy products from Japanese online stores.<br/>
+              Here’s how we made it easy:</h4>
+            </div>
+          </div>
+          <div class="stackable four column row work-process">
+            <div class="column">
+              <div class="step">
+                <div class="step-icon">
+                  <img src="assets/images/big-how-step-1.svg" alt="">
+                </div>
+                <div class="step-number">
+                  1
+                </div>
+                <div class="step-name">
+                  Tell us what to buy
+                </div>
+                <div class="step-description">
+                  Add your items for an instant quote.
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="step">
+                <div class="step-icon">
+                  <img src="assets/images/big-how-step-2.svg" alt="">
+                </div>
+                <div class="step-number">
+                  2
+                </div>
+                <div class="step-name">
+                  Check Out
+                </div>
+                <div class="step-description">
+                  Sign-in to checkout.<br/>
+                  It’s so simple.
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="step">
+                <div class="step-icon">
+                  <img src="assets/images/big-how-step-3.svg" alt="">
+                </div>
+                <div class="step-number">
+                  3
+                </div>
+                <div class="step-name">
+                  We buy your items
+                </div>
+                <div class="step-description">
+                  We’ll send email alerts as your order progresses.
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="step">
+                <div class="step-icon">
+                  <img src="assets/images/big-how-step-4.svg" alt="">
+                </div>
+                <div class="step-number">
+                  4
+                </div>
+                <div class="step-name">
+                  We ship your package
+                </div>
+                <div class="step-description">
+                  Select a shipping method. Combine packages & save!
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+
+      <div class="reasons">
+        <div class="ui one column centered grid vertically padded container">
+          <div class="sixteen wide tablet ten wide computer column">
+            <div class="reasons-content">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="get-quote">
+        <div class="ui one column centered grid vertically padded container">
+          <div class="sixteen wide tablet ten wide computer column">
+            <div class="get-quote-content">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feedback">
+        <div class="ui one column centered grid vertically padded container">
+          <div class="sixteen wide tablet ten wide computer column">
+            <div class="feedback-content">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="add-item">
+        <div class="ui one column centered grid vertically padded container">
+          <div class="sixteen wide table five wide computer column center aligned">
+            <button class="ui huge green button with-additional">
+              Add an Item
+              <span>For an Instant Quote</span>
+            </button>
+            <div class="add-item-learn-more">
+                <a href="#">Or learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer class="footer">
+      <div class="footer-main">
+
+        <div class="logo">
+          <img src="assets/images/white-rabbit-logo.svg" alt="">
+          <p class="logo-text">White Rabbit Express</p>
+        </div>
+
+        <ul class="footer-main-menu">
+          <ul>
+            <li><a href="#">Help and Support</a></li>
+            <li><a href="#">Partner Program</a></li>
+          </ul>
+        </ul>
+
+        <div class="footer-company-info">
+          <h4>Company Info</h4>
+          <ul class="company-info-menu">
+            <ul>
+              <li><a href="#">Service Fees</a></li>
+              <li><a href="#">Prohibited Items</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="footer-sister-companies">
+          <h4>Sister Companies</h4>
+          <ul class="sister-companies-menu">
+            <ul>
+              <li><a href="#">White Rabbit Japan Shop</a></li>
+              <li><a href="#">White Rabbit Press</a></li>
+              <li><a href="#">Kana Flashcards</a></li>
+              <li><a href="#">Kana Poster</a></li>
+              <li><a href="#">Kanji Poster</a></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="copyright">© 2017 White Rabbit Ventures Inc.</div>
+
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li><a href="#"><i class="icon twitter"></i>Twitter</a></li>
+          <li><a href="#"><i class="icon facebook f"></i>Facebook</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
