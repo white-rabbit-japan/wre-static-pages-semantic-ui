@@ -590,6 +590,88 @@ a:hover {
   }
 
   .intro {
+    .intro-content {
+      .intro-icon {
+        margin: 65px 0 30px;
+      }
 
+      border-bottom: 1px solid #f1f2f4;
+      h2 {
+        margin: 0 0 25px;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.23;
+        letter-spacing: 1.4px;
+        color: @wr-secondary-color;
+        text-transform: uppercase;
+      }
+  
+      .intro-lead-text {
+        font-size: 18px;
+        line-height: 1.78;
+        letter-spacing: 1px;
+        color: @wr-secondary-color;
+      }
+  
+      .intro-list {
+        font-size: 18px;
+        line-height: 1.78;
+        letter-spacing: 1px;
+        color: @wr-secondary-color;
+        margin: 0 auto 25px;
+        list-style-type: none;
+        border-top: 1px dashed #c2c5cd;
+        border-bottom: 1px dashed #c2c5cd;
+        padding: 10px 30px;
+  
+        li {
+          text-align: left;
+          line-height: 32px;
+          font-size: 16px;
+          letter-spacing: 0.9px;
+  
+          &::before {
+            content: "•";
+            margin-right: 12px;
+            color: @wr-primary-color;
+            font-size: 28px;
+            position: relative;
+            top: 2px;
+          }
+  
+          span {
+            background: fadeOut(@wr-primary-color, 90%);
+          }
+        }
+      }
+  
+      .intro-someone {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        color: @wr-secondary-color;
+        margin-bottom: 55px;
+      }
+    }
+  }
+
+  .how-we-work {
+    .grid {
+      border-top: 0px solid;
+    }
+  }
+
+
+  .reasons {
+    .reasons-content {
+      .reason {
+        .reason-icon {
+          display: inline-block;
+        }
+        .reason-content {
+          display: inline-block;
+        }
+      }
+    }
   }
 }
