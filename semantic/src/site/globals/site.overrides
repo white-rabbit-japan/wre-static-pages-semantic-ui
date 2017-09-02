@@ -774,4 +774,66 @@ a:hover {
       }
     }
   }
+
+
+  .feedback-sources {
+    padding: 15px 0 20px;
+    border-bottom: solid 1px #f1f2f4;
+    background: #fbfbfc;
+    .feedback-sources-content {
+      h4 {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: @wr-gray-light;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+      }
+
+      .feedback-sources-list {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+        justify-content: center;
+
+        li {
+          margin: 0px 10px;
+          vertical-align: middle;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .inspiration {
+    padding: 100px 0 0;
+    h2 {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      color: #060006;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+    }
+
+    .inspiration-lead-text {
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 1px;
+      text-align: center;
+      color: @wr-secondary-color;
+      margin-bottom: 40px;
+    }
+
+    .img-holder {
+      padding: 20px;
+    }
+  }
 }
