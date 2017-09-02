@@ -663,14 +663,114 @@ a:hover {
 
 
   .reasons {
-    .reasons-content {
-      .reason {
-        .reason-icon {
-          display: inline-block;
+    .reason {
+      &:first-child {
+        border-top: solid 1px #f1f2f4;
+        padding-top: 40px;
+      }
+
+      .reason-icon {
+        text-align: center;
+      }
+      .reason-content {
+        h2 {
+          margin-top: 20px;
+          margin-bottom: 10px;
+          font-size: 23px;
+          font-weight: 600;
+          color: @wr-secondary-color;
         }
-        .reason-content {
-          display: inline-block;
+        
+        p {
+          font-size: 18px;
+          line-height: 1.44;
+          color: @wr-secondary-color;
         }
+      }
+    }
+
+    .proud-of {
+      h2 {
+        color: @wr-primary-color;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.78;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      ul {
+        border-top: 1px dashed #c2c5cd;
+        border-bottom: 1px dashed #c2c5cd;
+        list-style-type: none;
+        color: @wr-secondary-color;
+        padding: 20px 0;
+
+        li {
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: 0.9px;
+          padding: 0px;
+          margin: 0px;
+
+          &::before {
+            content: "•";
+            margin-right: 12px;
+            color: @wr-primary-color;
+            font-size: 28px;
+            position: relative;
+            top: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .get-quote {
+    margin-bottom: 40px;
+    h4 {
+      font-size: 16px;
+      letter-spacing: 0.7px;
+      color: #3a4361;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+  }
+
+  .feedback {
+    padding: 60px 0 70px;
+    background-image: url('../assets/images/home/review-bg.jpeg');
+    background-position: center top;
+    background-size: cover;
+
+    .feedback-content {
+      .author {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: @wr-gray-light;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: @wr-secondary-color;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      .feedback-text {
+        font-size: 16px;
+        line-height: 1.63;
+        color: @wr-secondary-color;
+        margin-bottom: 30px;
+      }
+
+      .read-more {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.71;
+        text-transform: uppercase;
+        color: @wr-primary-color;
       }
     }
   }
