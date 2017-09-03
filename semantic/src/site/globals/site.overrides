@@ -84,7 +84,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h6.ui.header {
   color: @wr-secondary-color;
 }
 
@@ -139,11 +140,13 @@ a:hover {
       border-top: 1px solid #ededef;
 
       h1,
-      h2 {
+      h2,
+      h2.ui.header {
         text-align: center;
       }
 
-      h2 {
+      h2,
+      h2.ui.header {
         margin-bottom: 35px;
       }
 
@@ -405,7 +408,12 @@ a:hover {
     h3,
     h4,
     h5,
+<<<<<<< 8ae012143c00801477119db06fe6ef060ca9f171
     h6 {
+=======
+    h6,
+    h6.ui.header {
+>>>>>>> minor style changes.
       color: @white;
     }
 
@@ -677,6 +685,7 @@ a:hover {
   }
 
   .reasons {
+<<<<<<< 8ae012143c00801477119db06fe6ef060ca9f171
     .reasons-content {
       .reason {
         .reason-icon {
@@ -684,8 +693,185 @@ a:hover {
         }
         .reason-content {
           display: inline-block;
+=======
+    .reason {
+      &:first-child {
+        border-top: solid 1px #f1f2f4;
+        padding-top: 40px;
+      }
+
+      .reason-icon {
+        text-align: center;
+      }
+      .reason-content {
+        h2 {
+          margin-top: 20px;
+          margin-bottom: 10px;
+          font-size: 23px;
+          font-weight: 600;
+          color: @wr-secondary-color;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 1.44;
+          color: @wr-secondary-color;
+        }
+      }
+    }
+
+    .proud-of {
+      h2 {
+        color: @wr-primary-color;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.78;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+      }
+      ul,
+      .ui.bulleted.list {
+        border-top: 1px dashed #c2c5cd;
+        border-bottom: 1px dashed #c2c5cd;
+        list-style-type: none;
+        color: @wr-secondary-color;
+        padding: 20px 0;
+        padding-left: 16px;
+
+        li,
+        .item {
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: 0.9px;
+          padding: 0px;
+          margin: 0px;
+
+          &::before {
+            content: "•";
+            margin-right: 12px;
+            color: @wr-primary-color;
+            font-size: 28px;
+            position: relative;
+            top: 2px;
+          }
         }
       }
     }
   }
+
+  .get-quote {
+    margin-bottom: 40px;
+    h4 {
+      font-size: 16px;
+      letter-spacing: 0.7px;
+      color: #3a4361;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+  }
+
+  .feedback {
+    padding: 60px 0 70px;
+    background-image: url('../assets/images/home/review-bg.jpeg');
+    background-position: center top;
+    background-size: cover;
+
+    .feedback-content {
+      .author {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: @wr-gray-light;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: @wr-secondary-color;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      .feedback-text {
+        font-size: 16px;
+        line-height: 1.63;
+        color: @wr-secondary-color;
+        margin-bottom: 30px;
+      }
+
+      .read-more {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.71;
+        text-transform: uppercase;
+        color: @wr-primary-color;
+      }
+    }
+  }
+
+  .feedback-sources {
+    padding: 15px 0 20px;
+    border-bottom: solid 1px #f1f2f4;
+    background: #fbfbfc;
+    .feedback-sources-content {
+      h4 {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: @wr-gray-light;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+      }
+
+      .feedback-sources-list {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+        justify-content: center;
+
+        li {
+          margin: 0px 10px;
+          vertical-align: middle;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+>>>>>>> minor style changes.
+        }
+      }
+    }
+  }
+<<<<<<< 8ae012143c00801477119db06fe6ef060ca9f171
+=======
+
+  .inspiration {
+    padding: 100px 0 0;
+    h2 {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      color: #060006;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+    }
+
+    .inspiration-lead-text {
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 1px;
+      text-align: center;
+      color: @wr-secondary-color;
+      margin-bottom: 40px;
+    }
+
+    .img-holder {
+      padding: 20px;
+    }
+  }
+>>>>>>> minor style changes.
 }
