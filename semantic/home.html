@@ -7,21 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-
   <link rel="stylesheet" href="dist/semantic.css">
-
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
   <script src="dist/semantic.min.js"></script>
-
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       const sidebarToggle = $('#sidebar-toggle');
       const sidebar = $('#sidebar');
       sidebar.sidebar('setting', 'transition', 'overlay');
-      sidebarToggle.on('click', function() {
+      sidebarToggle.on('click', function () {
         sidebar.sidebar('toggle')
       })
     });
@@ -29,20 +24,17 @@
 </head>
 
 <body>
-
   <div id="navbar" class="ui huge menu fixed green inverted">
     <div class="ui grid vertically padded container">
       <a class="item logo">
         <img src="assets/images/white-rabbit-logo.svg" alt="">
         <span class="hide-on-mobile">White Rabbit Express</span>
       </a>
-
       <div class="right menu show-on-mobile">
         <a id="sidebar-toggle" class="item">
           <i class="sidebar icon"></i>
         </a>
       </div>
-
       <div class="right menu hide-on-mobile">
         <a class="item">
           Help
@@ -56,7 +48,6 @@
       </div>
     </div>
   </div>
-
   <div id="sidebar" class="ui right sidebar vertical menu">
     <a href="#" class="active item">Home</a>
     <a href="#" class="item">Help</a>
@@ -68,38 +59,32 @@
     <a href="#" class="item">Terms Of Service</a>
     <a href="#" class="item">Privacy Policy</a>
     <a href="#" class="item">Careers</a>
-    
     <div class="copyright">
-      © 2017 White Rabbit Ventures Inc. 
+      © 2017 White Rabbit Ventures Inc.
     </div>
   </div>
-
   <div class="pusher">
-
     <div class="home">
       <div class="get-started">
         <div class="ui two column centered grid vertically padded container">
-          <div class="six wide tablet eight wide computer column">
+          <div class="six wide tablet seven wide computer column">
             <div class="get-started-left">
               <div class="middle">
                 <h1>Buy from Japan, easier than ever.</h1>
                 <h3>A proxy-buying service that puts customer service first.</h3>
-  
                 <a href="#" class="ui green button huge">Get Started</a>
-  
                 <div class="no-commitment">No commitment. No hidden costs.</div>
               </div>
             </div>
           </div>
-          <div class="ten wide tablet eight wide computer right aligned column">
-            <img class="ui fluid image" src="assets/images/home/grid-01-men.png" srcset="assets/images/home/grid-01-men@2x.png 2x" srcset="assets/images/home/grid-01-men@3x.png 3x" alt="">
+          <div class="ten wide tablet nine wide computer right aligned column">
+            <img class="ui fluid image" src="assets/images/home/collage_mens-fashion.jpg" srcset="assets/images/home/collage_mens-fashion@2x.jpg"
+              srcset="assets/images/home/grid-01-men@3x.png 3x" alt="">
           </div>
         </div>
       </div>
-
       <div class="money-back">
         <div class="ui two column centered grid vertically padded container">
-          
           <div class="eight wide tablet eight wide computer column">
             <div class="money-back-left">
               <div class="percentage-icon">
@@ -111,7 +96,6 @@
               </div>
             </div>
           </div>
-
           <div class="eight wide tablet eight wide computer right aligned column">
             <div class="money-back-right">
               <ul class="cards-list">
@@ -124,25 +108,19 @@
               </ul>
             </div>
           </div>
-
         </div>
       </div>
-
       <div class="intro">
         <div class="ui one column centered grid vertically padded container">
-          <div class="sixteen wide tablet ten wide computer center aligned column">
+          <div class="sixteen wide tablet eleven wide computer center aligned column">
             <div class="intro-content">
-              
               <div class="intro-icon">
                 <img src="assets/images/home/kitten-icon.svg" alt="">
               </div>
-
               <h2>We’ve neeb expecting you</h2>
-
               <p class="intro-lead-text">
                 You want to buy something from Japan, but you’ve run into trouble.<br/>You’re dealing with:
               </p>
-
               <ul class="intro-list">
                 <li><span>Japanese websites</span> which are hard to navigate.</li>
                 <li>Sellers who won’t <span>ship overseas</span>.</li>
@@ -150,24 +128,20 @@
                 <li>Companies which can’t answer pre-sales <span>questions in English</span>.</li>
                 <li><span>Time-sensitive sales and pre-orders</span> which you need help with ASAP. </li>
               </ul>
-
               <p class="intro-someone">
-                  You need someone who can handle all this for you. Someone who can answer your questions. 
-                  Someone who can purchase and pick-up your items. 
-                  Someone who can ship your packages from Japan using the method of your choice. 
-                  It’s time for White Rabbit Express.
+                You need someone who can handle all this for you. Someone who can answer your questions. Someone who can purchase and pick-up
+                your items. Someone who can ship your packages from Japan using the method of your choice. It’s time for
+                White Rabbit Express.
               </p>
             </div>
           </div>
         </div>
       </div>
-
       <div class="how-we-work">
         <div class="ui centered grid vertically padded container">
           <div class="one column row">
             <div class="column">
-              <h4>It can be a pain to buy products from Japanese online stores.<br/>
-              Here’s how we made it easy:</h4>
+              <h4>It can be a pain to buy products from Japanese online stores.<br/> Here’s how we made it easy:</h4>
             </div>
           </div>
           <div class="stackable four column row work-process">
@@ -199,8 +173,7 @@
                   Check Out
                 </div>
                 <div class="step-description">
-                  Sign-in to checkout.<br/>
-                  It’s so simple.
+                  Sign-in to checkout.<br/> It’s so simple.
                 </div>
               </div>
             </div>
@@ -235,17 +208,14 @@
                   Select a shipping method. Combine packages & save!
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
       </div>
-
-
       <div class="reasons">
         <div class="ui one column centered grid vertically padded container">
           <div class="sixteen wide tablet ten wide computer column">
             <div class="reasons-content">
-              
               <div class="reason">
                 <div class="reason-icon">
                   <img src="assets/images/big-reason-1.svg" alt="">
@@ -255,17 +225,15 @@
                   <p>Industry-beating customer service you can depend on.</p>
                 </div>
               </div>
-
               <div class="reason">
                 <div class="reason-content">
                   <h2>Get a Quote, Instantly</h2>
                   <p>Add the items you want to buy for an instant quote. It’s so fast and simple.</p>
                 </div>
                 <div class="reason-icon">
-                    <img src="assets/images/big-reason-2.svg" alt="">
-                  </div>
+                  <img src="assets/images/big-reason-2.svg" alt="">
+                </div>
               </div>
-
               <div class="reason">
                 <div class="reason-icon">
                   <img src="assets/images/big-reason-3.svg" alt="">
@@ -275,42 +243,35 @@
                   <p>No deposit. No hidden fees. If we can’t buy your items you get a full refund.</p>
                 </div>
               </div>
-
               <div class="reason">
                 <div class="reason-content">
                   <h2>Mobile-Friendly</h2>
                   <p>Create order and ship packages on-the-go. We work great on smartphones and tablets.</p>
                 </div>
                 <div class="reason-icon">
-                    <img src="assets/images/big-reason-4.svg" alt="">
-                  </div>
+                  <img src="assets/images/big-reason-4.svg" alt="">
+                </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
-
       <div class="get-quote">
         <div class="ui one column centered grid vertically padded container">
           <div class="sixteen wide tablet ten wide computer column">
             <div class="get-quote-content">
-
             </div>
           </div>
         </div>
       </div>
-
       <div class="feedback">
         <div class="ui one column centered grid vertically padded container">
           <div class="sixteen wide tablet ten wide computer column">
             <div class="feedback-content">
-
             </div>
           </div>
         </div>
       </div>
-
       <div class="add-item">
         <div class="ui one column centered grid vertically padded container">
           <div class="sixteen wide table five wide computer column center aligned">
@@ -319,29 +280,24 @@
               <span>For an Instant Quote</span>
             </button>
             <div class="add-item-learn-more">
-                <a href="#">Or learn more</a>
+              <a href="#">Or learn more</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-
     <footer class="footer">
       <div class="footer-main">
-
         <div class="logo">
           <img src="assets/images/white-rabbit-logo.svg" alt="">
           <p class="logo-text">White Rabbit Express</p>
         </div>
-
         <ul class="footer-main-menu">
           <ul>
             <li><a href="#">Help and Support</a></li>
             <li><a href="#">Partner Program</a></li>
           </ul>
         </ul>
-
         <div class="footer-company-info">
           <h4>Company Info</h4>
           <ul class="company-info-menu">
@@ -354,7 +310,6 @@
             </ul>
           </ul>
         </div>
-
         <div class="footer-sister-companies">
           <h4>Sister Companies</h4>
           <ul class="sister-companies-menu">
@@ -367,9 +322,7 @@
             </ul>
           </ul>
         </div>
-
         <div class="copyright">© 2017 White Rabbit Ventures Inc.</div>
-
       </div>
       <div class="footer-social">
         <ul>
@@ -379,7 +332,6 @@
       </div>
     </footer>
   </div>
-
 </body>
 
 </html>
