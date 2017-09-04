@@ -408,12 +408,8 @@ a:hover {
     h3,
     h4,
     h5,
-<<<<<<< 8ae012143c00801477119db06fe6ef060ca9f171
-    h6 {
-=======
     h6,
     h6.ui.header {
->>>>>>> minor style changes.
       color: @white;
     }
 
@@ -685,15 +681,6 @@ a:hover {
   }
 
   .reasons {
-<<<<<<< 8ae012143c00801477119db06fe6ef060ca9f171
-    .reasons-content {
-      .reason {
-        .reason-icon {
-          display: inline-block;
-        }
-        .reason-content {
-          display: inline-block;
-=======
     .reason {
       &:first-child {
         border-top: solid 1px #f1f2f4;
@@ -839,13 +826,10 @@ a:hover {
           display: flex;
           flex-direction: column;
           justify-content: center;
->>>>>>> minor style changes.
         }
       }
     }
   }
-<<<<<<< 8ae012143c00801477119db06fe6ef060ca9f171
-=======
 
   .inspiration {
     padding: 100px 0 0;
@@ -873,5 +857,4 @@ a:hover {
       padding: 20px;
     }
   }
->>>>>>> minor style changes.
 }
