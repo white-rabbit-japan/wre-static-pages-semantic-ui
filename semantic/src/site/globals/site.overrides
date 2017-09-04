@@ -764,7 +764,7 @@ a:hover {
   .feedback .container {
     padding: 60px 0 70px;
     background-image: url("../assets/images/home/review-bg.jpeg");
-    background-position: center top;
+    background-position: center;
     background-size: cover;
 
     .feedback-content {
