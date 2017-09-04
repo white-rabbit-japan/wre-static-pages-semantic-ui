@@ -726,8 +726,6 @@ a:hover {
         list-style-type: none;
         color: @wr-secondary-color;
         padding: 20px 0;
-        padding-left: 16px;
-        margin-left: 0rem;
 
         li,
         .item {
