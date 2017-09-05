@@ -1,3 +1,33 @@
 /*******************************
         User Overrides
 *******************************/
+.ui.accordion {
+  width: 100%;
+  .title:not(.ui) {
+    border-bottom: solid 1px #f1f2f4;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.78;
+    letter-spacing: 1px;
+
+    .icon.dropdown {
+      float: right;
+      background: @green;
+      font-size: 24px;
+      color: @white;
+      border-radius: 40px;
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+
+      &::before {
+        left: 1px;
+        position: relative;
+        content: "\f105";
+      }
+    }
+  }
+}
