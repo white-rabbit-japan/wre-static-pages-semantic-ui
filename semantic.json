@@ -31,7 +31,8 @@
     "segment",
     "grid",
     "menu",
-    "transition"
+    "transition",
+    "accordion"
   ],
   "version": "2.2.13"
 }
