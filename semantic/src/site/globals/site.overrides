@@ -611,7 +611,7 @@ a:hover {
   .intro {
     .intro-content {
       .intro-icon {
-        margin: 65px 0 30px;
+        margin: 65px 0 28px;
       }
 
       border-bottom: 1px solid #f1f2f4;
@@ -626,6 +626,7 @@ a:hover {
       }
 
       .intro-lead-text {
+        margin-bottom: 28px;
         font-size: 18px;
         line-height: 1.78;
         letter-spacing: 1px;
@@ -634,18 +635,18 @@ a:hover {
 
       .intro-list {
         font-size: 18px;
-        line-height: 1.78;
+        line-height: 28px;
         letter-spacing: 1px;
         color: @wr-secondary-color;
         margin: 0 auto 25px;
         list-style-type: none;
         border-top: 1px dashed #c2c5cd;
         border-bottom: 1px dashed #c2c5cd;
-        padding: 10px 20px;
+        padding: 14px 20px 20px;
 
         li {
           text-align: left;
-          line-height: 32px;
+          line-height: 28px;
           font-size: 16px;
           letter-spacing: 0.9px;
 
@@ -669,12 +670,16 @@ a:hover {
         line-height: 32px;
         letter-spacing: 1px;
         color: @wr-secondary-color;
-        margin-bottom: 55px;
+        margin-bottom: 60px;
       }
     }
   }
 
   .how-we-work {
+    h4 {
+      margin-top: 21px;
+      margin-bottom: 4px;
+    }
     .grid {
       border-top: 0px solid;
     }
@@ -682,9 +687,14 @@ a:hover {
 
   .reasons {
     .reason {
+      margin-bottom: 50px;
       &:first-child {
         border-top: solid 1px #f1f2f4;
         padding-top: 40px;
+      }
+
+      &:nth-child(4) {
+        margin-top: 0px;
       }
 
       .reason-icon {
@@ -710,6 +720,7 @@ a:hover {
     }
 
     .proud-of {
+      margin-bottom: 12px;
       h2 {
         color: @wr-primary-color;
         font-size: 18px;
@@ -717,7 +728,7 @@ a:hover {
         line-height: 1.78;
         letter-spacing: 1px;
         text-transform: uppercase;
-        margin-bottom: 1em;
+        margin-bottom: 22px;
       }
       ul,
       .ui.bulleted.list {
@@ -725,12 +736,12 @@ a:hover {
         border-bottom: 1px dashed #c2c5cd;
         list-style-type: none;
         color: @wr-secondary-color;
-        padding: 20px 0;
+        padding: 12px 0 18px;
 
         li,
         .item {
           font-size: 16px;
-          line-height: 32px;
+          line-height: 28px;
           letter-spacing: 0.9px;
           padding: 0px;
           margin: 0px;
@@ -766,6 +777,9 @@ a:hover {
     background-size: cover;
 
     .feedback-content {
+      background-image: url(../assets/images/home/quotes.svg);
+      background-repeat: no-repeat;
+      background-position: -60px 0px;
       .author {
         font-size: 16px;
         font-weight: 600;
@@ -779,6 +793,7 @@ a:hover {
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 20px;
+        margin-top: 16px;
       }
 
       .feedback-text {
@@ -833,8 +848,8 @@ a:hover {
   }
 
   .inspiration {
-    padding: 100px 0 0;
-    margin-bottom: 30px;
+    padding: 88px 0 0;
+    margin-bottom: 20px;
     h2 {
       margin-top: 0px;
       margin-bottom: 30px;
@@ -852,7 +867,7 @@ a:hover {
       letter-spacing: 1px;
       text-align: center;
       color: @wr-secondary-color;
-      margin-bottom: 40px;
+      margin-bottom: 0px;
     }
 
     .img-holder {
@@ -861,6 +876,7 @@ a:hover {
   }
 
   .team-recommends {
+    margin-bottom: 75px;
     h4 {
       font-size: 12px;
       font-weight: bold;
@@ -869,7 +885,7 @@ a:hover {
       text-align: center;
       color: @wr-gray-light;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
     }
   }
 
@@ -899,7 +915,7 @@ a:hover {
       background: @white;
       border-radius: 16px;
       box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
-      padding: 24px;
+      padding: 24px 24px 40px;
 
       .author {
         margin-bottom: 20px;
@@ -974,7 +990,7 @@ a:hover {
 
   .shipping-methods {
     border-bottom: solid 1px #f1f2f4;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     h4 {
       font-size: 12px;
       font-weight: bold;
@@ -988,7 +1004,7 @@ a:hover {
   }
 
   .faq {
-    padding-top: 50px;
+    padding-top: 68px;
     padding-bottom: 50px;
     h2 {
       font-size: 26px;
@@ -1013,21 +1029,49 @@ a:hover {
   }
 
   .blackship {
+    margin-bottom: 38px;
     .blackship-content {
       background-color: #000;
-      padding: 50px 80px;
+      background-image: url('../assets/images/home/black-tile-pattern.jpg');
+      padding: 64px 60px;
       
       h4 {
         color: @white;
         font-size: 16px;
         font-weight: bold;
+        margin-top: 48px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
       }
   
       .blackship-text {
         font-size: 14px;
         line-height: 20px;
         color: #c2c5cd;
+        margin-bottom: 40px;
       }
+
+      .button {
+        line-height: 8px;
+      }
+    }
+  }
+
+  .final {
+    margin-bottom: 80px;
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 1.3px;
+      color: @wr-secondary-color;
+      margin-bottom: 18px;
+    }
+
+    .final-text {
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.9px;
+      margin-bottom: 60px;
     }
   }
 
