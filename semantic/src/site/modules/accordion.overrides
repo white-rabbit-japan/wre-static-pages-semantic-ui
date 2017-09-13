@@ -20,13 +20,15 @@
       height: 22px;
       line-height: 22px;
       padding: 0px;
-      margin: 0px;
+      margin: 4px 0px 0px 10px;
       text-align: center;
 
       &::before {
         left: 1px;
+        top: -2px;
         position: relative;
         content: "\f105";
+        font-family: FontAwesome
       }
     }
   }
